@@ -1,0 +1,51 @@
+# === Секреты ===
+.env
+.env.*
+!.env.example
+
+# === Python ===
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# === Виртуальное окружение ===
+.venv/
+venv/
+env/
+ENV/
+
+# === Тесты / кэш ===
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.tox/
+.coverage
+.coverage.*
+htmlcov/
+
+# === IDE / редакторы ===
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+
+# === ОС ===
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# === Логи и данные ===
+*.log
+logs/
+*.sqlite3
+*.db
+
+# === Jupyter (на всякий) ===
+.ipynb_checkpoints/
